@@ -14,7 +14,7 @@ Create New File을 클릭하여 새로운 소스 파일을 추가할 수 있습�
 
 mux4\_to\_1 이라는 이름이 파일을 하나 생성해주세요. 본 튜토리얼에서는 Verilog 언어 기반의 HDL 설계를 진행할 것이기 때문에, **Add file as type: Verilog** 로 설정하시면 됩니다.
 
-![](.gitbook/assets/image%20%2813%29.png)
+![](.gitbook/assets/image%20%2817%29.png)
 
 아래의 소스 코드를 입력해주세요.
 
@@ -44,11 +44,11 @@ endmodule
 
 ## Testbench 작성 
 
-위에서 완성한 module의 로직이 잘 작동하는지 확인하기 위해 testbench 파일을 추가해봅시다. testbench에서는 사용자가 module에 임의의 input을 주어서, 내가 의도한대로 output이나오고 있는지 확인하게 됩니다.
+위에서 완성한 module의 로직이 잘 작동하는지 확인하기 위해 testbench 파일을 추가해봅시다. testbench에서는 사용자가 module에 임의의 input을 주어서, 내가 의도한대로 output이 나오고 있는지 확인하게 됩니다. 
 
-좌측 Project 패널을 우클릭한 후, Add to project → New File 을 클릭하 mux4\_to\_1\_tb 라는 이름의 verilog 파일을 하나 생성해줍니다. 
+좌측 Project 패널을 우클릭한 후, Add to project → New File 을 클릭하여 mux4\_to\_1\_tb 라는 이름의 verilog 파일을 하나 생성해줍니다. 
 
-번에도 마찬가지로 파일 type을 Verilog로 설정하여 주시면 됩니다. 아래의 코드를 mux4\_to\_1\_tb에 입력해줍시다.
+이번에도 마찬가지로 파일 type을 Verilog로 설정하여 주시면 됩니다. 아래의 코드를 mux4\_to\_1\_tb에 입력해줍시다.
 
 ```text
 `timescale 1ns/1ns
@@ -106,7 +106,7 @@ endmodule
 
 코드 입력이 끝나시면 Compile을 다시 한 번 진행하시고, 체크 표시가 보이는 것을 확인하시면 됩니다.
 
-![](.gitbook/assets/image%20%2812%29.png)
+![](.gitbook/assets/image%20%2816%29.png)
 
 ## Timing Diagram Simulation
 
@@ -116,11 +116,25 @@ Menu bar → Simulate → Start Simulation → 작성한 testbench 파일을 선
 
 
 
-확인하고 싶은 입출력 선택  우클릭 Add to wave
+확인하고 싶은 입출력 변수 선택 → 우클릭 → Add to wave 를 클릭합니다.
+
+![](.gitbook/assets/image%20%287%29.png)
 
 
 
+상단의 Run 버튼을 클릭하여 시뮬레이션을 진행할 수 있습니다. 또한 Zoom In, Zoom Out 버튼을 통해 시뮬레이션 확대 및 축소가 가능합니다.
+
+![](.gitbook/assets/image%20%2819%29.png)
 
 
 
+여러 신호를 한 번에 보고 싶을 때는 묶고 싶은 신호를 선택 한 후, 우클릭 → Combine Signals 를 클릭하시면 됩니다.
+
+![](.gitbook/assets/image%20%289%29.png)
+
+
+
+신호 표시 방법 \(이진수, 십진수 등\)을 바꾸고 싶으실 때는, 신호 선택 → 우클릭 → Radix → 원하는 표시 방법을 선택해주시면 됩니다. 
+
+![](.gitbook/assets/image%20%2811%29.png)
 
