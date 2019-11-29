@@ -5,5 +5,6 @@
 
 ## Troubleshooting
 
-* [ModelSim text editor가 열리지 않는 경우](troubleshooting/modelsim-text-editor.md)
+* [Text Editor Error](troubleshooting/modelsim-text-editor.md)
+* [Simulation Error](troubleshooting/simulation-error.md)
 

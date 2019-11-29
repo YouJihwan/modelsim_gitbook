@@ -26,7 +26,7 @@
 
 위의 단계에서 입력한 이메일로 접속하여, 수신 메일을 확인해주세요. 다운로드 링크를 클릭하여 'modelsim-pe\_student\_edition.exe' 파일을 다운로드합니다.
 
-![](.gitbook/assets/image%20%2815%29.png)
+![](.gitbook/assets/image%20%2816%29.png)
 
 
 
@@ -39,7 +39,7 @@
 
 학생용 라이센스 다운로드를 위해 Finish 버튼 클릭 후 나오는 페이지의 설문지를 작성합니다. 작성이 완료되시면 'Request License' 버튼을 클릭해주세요.
 
-![](.gitbook/assets/image%20%2813%29.png)
+![](.gitbook/assets/image%20%2814%29.png)
 
 
 

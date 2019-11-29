@@ -1,4 +1,4 @@
-# ModelSim text editor가 열리지 않는 경우
+# Text Editor Error
 
 ModelSim 프로그램에서 코드를 수정할 때 .v 파일\(verilog 파일\)을 더블클릭 시 moidelsim text editor가 아닌 기타 앱이 실행되는 경우 \(메모장, wordpad, visual studio code 등\)가 있습니다.
 
